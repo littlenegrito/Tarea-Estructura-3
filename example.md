@@ -1,4 +1,5 @@
 ##Ejemplo de uso
+
 #Paso 1: Registrar estado inicial
 
 Se comienza rellenando el tablero de 3x3 con un caso, para modificarlo simplemente se cambian los numeros en la casilla y se actualiza la posicion de la vacía.
@@ -7,13 +8,6 @@ Se muestra el estado inicial y su distancia:
 
 
 Estado inicial del puzzle:
-
-x 2 8 
-
-1 3 4 
-
-6 5 7 
-
 
 Distancia L1:10
 

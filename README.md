@@ -1,4 +1,4 @@
-# Tarea-Estructura-2
+# Tarea-Estructura-3
 
 Descripcion:
 Este programa se centra en la búsqueda y resolución de un puzzle-8 utilizando grafos implícitos. Entrega 2 opciones de algoritmos para recorrer cada estado hasta encontrar una solución y muestra cada paso con su tablero correspondiente, además de la cantidad de movimientos.

@@ -157,7 +157,7 @@ void dfs(State* state) {
 
         if (finalState(stateActual)) { // verificar si es estado final en cada iteracion
             printf("\nESTADO FINAL ENCONTRADO\n\n");
-            printf("Nodos explorados: %d\n", total);
+            printf("Cantidad de iteraciones: %d\n", total);
             printf("Profundidad del estado: %d\n\n", stateActual->profundidad);
 
             List* solucion = list_create(); // crear lista de estados
@@ -210,7 +210,7 @@ void dfs(State* state) {
 
     }
     if(list_size(pila) == 0){ // si no se encuentra el estado final;
-        printf("No se encontró una solución al puzzle después de %d nodos\n", total);
+        printf("No se encontró una solución al puzzle después de %d iteraciones\n", total);
     }
     stack_clean(pila); // limpiar pila y mapa
     map_clean(explorados);
@@ -230,7 +230,7 @@ void bfs(State* state) {
 
         if (finalState(stateActual)) { // verificar si es estado final en cada iteracion
             printf("\nESTADO FINAL ENCONTRADO\n\n");
-            printf("Nodos explorados: %d\n", total);
+            printf("Cantidad de iteraciones: %d\n", total);
             
             List* solucion = list_create(); // crear lista de estados
             while (stateActual != NULL) {
@@ -275,7 +275,7 @@ void bfs(State* state) {
     }
 
     if (list_size(cola) == 0) {
-        printf("No se encontró solución después de %d nodos\n", total);
+        printf("No se encontró solución después de %d iteraciones\n", total);
     }
     queue_clean(cola); // limpiar cola y mapa
     map_clean(explorados);

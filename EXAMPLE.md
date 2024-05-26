@@ -15,16 +15,12 @@ Distancia L1:10
 
 ## Paso 2: Realizar búsqueda
 
-Tras una evaluación inicial, el médico determina que el estado de Guzmán requiere atención prioritaria.
+El usuario elige que tipo de búsqueda quiere realizar
 
-Opción seleccionada: 2) Asignar prioridad a paciente
-Ingrese el nombre del paciente: Pedro Guzmán
-Seleccione el nuevo nivel de prioridad (Alto, Medio, Bajo): Alto
-El sistema actualiza la prioridad de Pedro Guzmán a "Alto", asegurando que será uno de los próximos pacientes en ser atendido.
+### Opción 1) DFS 
 
+Se realiza una búsqueda por profundidad, la cuál se debe ingresar dependiendo del caso
 
+### Opción 2) BFS 
 
-Pedro Guzmán es llamadp para ser atendido basándose en su prioridad.
-
-Opción seleccionada: 4) Atender al siguiente paciente
-El sistema muestra que Pedro Guzmán está siendo atendido y lo elimina de la lista de espera.
+Se realiza una búsqueda por anchura, la cuál es más directa y eficiente

@@ -1,4 +1,5 @@
 ##Ejemplo de uso
+# Ejemplo de uso
 
 #Paso 1: Registrar estado inicial
 
